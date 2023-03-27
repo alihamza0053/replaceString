@@ -11,5 +11,5 @@ fun String.repleaseKeys(vararg values: Pair<Any,String>): String{
     for ((key,value) in values){
         result = result.replace("{$key}",value.toString())
     }
-    return resul
+    return result
 }
